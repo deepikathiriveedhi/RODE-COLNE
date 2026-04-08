@@ -1,0 +1,749 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* IMAGE */
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CONTENT ON IMAGE */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  max-width: 520px;
+  text-align: center;
+}
+
+/* TEXT */
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 36px;
+  color: #111;
+}
+
+/* COLOUR WORD */
+.colour {
+  background: linear-gradient(
+    90deg,
+    #00bfff,
+    #5a2dff,
+    #ff2fb3,
+    #ff8c00,
+    #7ed957
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-content button {
+  background: #000;
+  color: #fff;
+  border: 2px solid transparent;   /* reserve space for hover */
+  padding: 16px 44px;
+  border-radius: 999px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.hero-content button:hover {
+  background: transparent;         /* shows image behind */
+  color: #000;
+  border-color: #000;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .hero-content {
+    right: 5%;
+    left: 5%;
+    text-align: center;
+  }
+}
+
+/* SECTION */
+.wireless-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+/* BACKGROUND IMAGE */
+.wireless-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.wireless-content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  max-width: 520px;
+  color: #fff;
+}
+
+/* HEADING */
+.wireless-content h1 {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+
+
+
+/* SUB TITLE */
+.wireless-content h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+/* TEXT */
+.wireless-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #b5b5b5;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* BUTTON */
+.wireless-content button {
+  background: #fff;
+  color: #000;
+  border: 2px solid transparent;
+  padding: 16px 44px;
+  border-radius: 999px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;       /* Makes it act like a block element */
+  margin: 0 auto;
+}
+
+/* HOVER → SHOW IMAGE */
+.wireless-content button:hover {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .wireless-content {
+    left: 5%;
+    right: 5%;
+    max-width: 100%;
+  }
+
+  .wireless-content h1 {
+    font-size: 42px;
+  }
+}
+.hub {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;      
+  font-size: 54px;       
+  color: #c8b189;        
+  letter-spacing: 1px;   
+}
+
+.kits {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;      
+  font-size: 54px;       
+  color: #000000;        
+  letter-spacing: 1px;   
+}
+
+
+/* CONTENT */
+.wirelessGo {
+  position: relative;
+  width: 100%;
+  height: 700px; /* match image height */
+  overflow: hidden;
+  background: #000;
+}
+
+/* BACKGROUND IMAGE */
+.wirelessGo-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.wirelessGo-content {
+  position: absolute;
+  top: 50%;
+  right: 8%;              /* move content to right side */
+  transform: translateY(-50%);
+  max-width: 520px;
+  color: #fff;
+  text-align: right;       /* text aligned to right */
+}
+
+/* HEADING */
+.wirelessGo-content h1 {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.micro {
+  background: #c8b189;
+  color: #000;
+  padding: 6px 16px;
+  border-radius: 10px;
+}
+
+/* SUB TITLE */
+.wirelessGo-content h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+/* TEXT */
+.wirelessGo-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #b5b5b5;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* BUTTON */
+.wirelessGo-content button {
+  display: block;       
+  margin: 0 0 0 auto;    /* aligns button to right under text */
+  background: #fff;
+  color: #000;
+  border: 2px solid transparent;
+  padding: 16px 44px;
+  border-radius: 999px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin: auto;
+}
+
+.wirelessGo-content button:hover {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .wirelessGo-content {
+    left: 5%;
+    right: 5%;
+    max-width: 100%;
+    text-align: center;   /* center content on smaller screens */
+  }
+
+  .wirelessGo-content button {
+    margin: 0 auto;       /* center button on smaller screens */
+  }
+
+  .wirelessGo-content h1 {
+    font-size: 42px;
+  }
+}
+
+.rodekits {
+  position: relative;
+  width: 100%;
+  height: 700px; /* match image height */
+  overflow: hidden;
+  background: #000;
+}
+
+/* BACKGROUND IMAGE */
+.rodekits-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.rodekits-content {
+  position: absolute;
+  top: 50%;
+  right: 8%;              /* content on right side */
+  transform: translateY(-50%);
+  max-width: 520px;
+  color: #000;            /* text color black */
+  text-align: right;       /* text aligned to right */
+}
+
+/* HEADING */
+.rodekits-content h1 {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+
+/* SUB TITLE */
+.rodekits-content h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+/* TEXT */
+.rodekits-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #b5b5b5;            /* darker text color for paragraph */
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* BUTTON */
+.rodekits-content button {
+  display: block;       
+  margin:  auto;    /* aligns button to right under text */
+  background: #000;       /* black button */
+  color: #fff;            /* white text on button */
+  border: 2px solid transparent;
+  padding: 16px 44px;
+  border-radius: 999px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.rodekits-content button:hover {
+  background: transparent;
+  color: #000;            /* hover text black */
+  border-color: #000;     /* hover border black */
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .rodekits-content {
+    left: 5%;
+    right: 5%;
+    max-width: 100%;
+    text-align: center;   /* center content on smaller screens */
+  }
+
+  .rodekits-content h1 {
+    font-size: 42px;
+    
+  }
+}
+
+
+
+.rodecaster {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.rodecaster-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CONTENT - CENTERED VERTICALLY & RIGHT OFFSET */
+.rodecaster-content {
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  transform: translateY(-50%);
+  max-width: 520px;
+  color: #fff;
+  text-align: center; /* center content */
+}
+
+/* TITLE */
+.title {
+  font-size: 56px;
+  font-weight: 700;
+  white-space: nowrap; /* keep on one line */
+}
+
+.title .video {
+  color: #c6b58a;
+}
+
+.title .s {
+  background: #c6b58a;
+  color: #000;
+  padding: 2px 10px;
+  border-radius: 6px;
+  margin-left: 6px;
+}
+
+/* SUBTITLE */
+.rodecaster-content h3 {
+  margin-top: 16px;
+  font-size: 28px;
+}
+
+/* DESCRIPTION */
+.rodecaster-content p {
+  margin-top: 14px;
+  line-height: 1.7;
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+/* BUTTON - CENTERED */
+.shop-btn {
+  margin-top: 32px;
+  padding: 16px 48px;
+  border-radius: 999px;
+  background: #fff;
+  color: #000;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;  /* use inline-block for centering */
+}
+
+.shop-btn:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.interview {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+/* BACKGROUND IMAGE */
+.interview-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.interview-content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  max-width: 520px;
+  color: #000000;
+}
+
+/* HEADING */
+.interview-content h1 {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.go {
+  background: #c8b189;
+  color: #ffffff;
+  padding: 6px 16px;
+  border-radius: 10px;
+}
+
+/* SUB TITLE */
+.interview-content h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+/* TEXT */
+.interview-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666161;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* BUTTON */
+.interview-content button {
+  background:#000;
+  color:  #fff;
+  border: 2px solid transparent;
+  padding: 16px 44px;
+  border-radius: 999px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;       /* Makes it act like a block element */
+  margin: 0 auto;
+  
+}
+
+/* HOVER → SHOW IMAGE */
+.interview-content button:hover {
+  background: transparent;
+  color: #000000;
+  border-color: #000000;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .interview-content {
+    left: 5%;
+    right: 5%;
+    max-width: 100%;
+  }
+
+  .interview-content h1 {
+    font-size: 42px;
+  }
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FOOTER BASE */
+footer {
+  background: #000;
+  color: #b5b5b5;
+  padding: 80px 90px 40px;
+}
+
+/* TOP GRID */
+footer .top {
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr 1.2fr 2fr;
+  gap: 80px;
+}
+
+footer h4 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
+footer .top a {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #b5b5b5;
+  transition: color 0.3s;
+}
+
+footer .top a:hover {
+  color: #fff;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+  text-align: right;
+}
+
+.subscribe h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.35;
+  margin-bottom: 32px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.subscribe input {
+  padding: 16px 20px;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+
+.subscribe button {
+background: #fff;
+  color: #0e0e0e;
+  border: 2px solid transparent;   /* reserve space for hover */
+  padding: 16px 44px;
+  border-radius: 999px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.subscribe button:hover {
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+
+/* DIVIDER */
+footer hr {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin: 30px 0 30px;
+}
+
+/* BOTTOM GRID */
+footer .bottom {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+footer .bottom span {
+  color: #fff;
+  font-weight: 500;
+}
+
+footer nav {
+  margin-top: 24px;
+}
+
+footer nav a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #b5b5b5;
+  transition: color 0.3s;
+}
+
+footer nav a:hover {
+  color: #fff;
+}
+
+footer nav span {
+    margin: 0 10px;
+  color: #444;
+}
+
+footer .bottom nav span{
+    color: #444;
+}
+
+/* RIGHT SECTION */
+footer .right {
+  text-align: right;
+}
+
+footer strong {
+  font-size: 28px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+footer small {
+  display: block;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.icons {
+  margin-top: 14px;
+  display: flex;
+  gap: 18px;
+  justify-content: flex-end;
+}
+
+.icons i {
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icons i:hover {
+  color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  footer .top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  footer {
+    padding: 50px 20px;
+  }
+
+  footer .top {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  footer .bottom {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  footer .right {
+    text-align: left;
+  }
+
+  .icons {
+    justify-content: flex-start;
+  }
+
+  .subscribe {
+    text-align: left;
+  }
+
+
+  .subscribe input {
+    width: 100%;
+  }
+}
